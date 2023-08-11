@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    height: 90vh;
+    background-color: #000000;
+    margin: 0;
+    padding-left: 0px;
+    transition: padding-left 0.5s ease;
+  
+}
+
+
+
+
+
+main {
+
+    background-color: #000000;
+    transition: 0.3s;
+    flex: 3;
+    padding: 1rem;
+
+}
+
+@media only screen and (max-width:1050px) {
+    main {
+        margin-left: 0;
+
+    }
+}
+
+
+#home {
+    height:30vh;
+    width:80%;
+    /* display: fixed; */
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+    top: 80px;
+    transition: margin-left 0.5s ease;
+
+}
+
+
+#home .home-row {
+    z-index: 1;
+}
+
+#home .home-row h1 {
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-right: 10px;
+    line-height: 70px;
+    color: #ffffff;
+    position: relative;
+    left: 30px;
+
+}
+
+#home .home-row h1 span {
+    color: #00a78e;
+    position: relative;
+    left: 28px;
+}
+
+#home .home-row p {
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    left: 28px;
+
+}
+
+#home .home-row p .auto-input {
+    color: #00a78e;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#home .home-row p span {
+    border-bottom: 4px solid #00a78e;
+
+}
+
+.home-row .bala {
+
+    position: relative;
+    top: -294px;
+    left: 800px;
+    width: 238px;
+    height: 354px;
+    border-radius: 20px;
+    
+
+}
+
+@media only screen and (max-width:670px) {
+    #home {
+        padding: 30px;
+    }
+
+    #home.home-row h1 {
+        font-size: 35px;
+        letter-spacing: 0px;
+        line-height: 70px;
+    }
+
+    #home.home-row h1 br {
+        display: none;
+    }
+
+    #home .home-row p {
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .home-row .bala{
+        position: relative;
+        top: 52px;
+        left: 67px;
+        width: 150px;
+        height: 200px;
+    }
+}
+
+

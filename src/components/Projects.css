@@ -1,0 +1,35 @@
+.projecrtpro{
+    position: fixed;
+    left: 250px;
+}
+.header{
+    color: #00a78e;
+    position: relative;
+    left: 450px;
+    font-weight: 700;
+    font-size: 60px;
+    
+}
+
+.projects {
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    position: relative;
+    top: 40px;
+    left: -90px;
+
+}
+
+.logo .sql {
+    width: 250px;
+    height: 150px;
+}
+
+.eachto img {
+    box-shadow: rgba(181, 181, 181, 0.25) 0px 50px 100px -20px, rgba(56, 55, 55, 0.3) 0px 30px 60px -30px, rgba(246, 250, 255, 0.35) 0px -2px 6px 0px inset;
+    width: 200px;
+    height:190px;
+    border-radius: 20px;
+} 

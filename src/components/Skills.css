@@ -1,0 +1,42 @@
+.skills{
+
+    position: fixed;
+    left: 250px;
+   
+}
+
+
+.sub-heading {
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #00a78e;
+    transition: margin-left 0.5s ease;
+    position: relative;
+    top: 30px;
+    left: 100px;
+
+}
+
+.continer {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: flex-end;
+    gap:100px;
+}
+
+.continer img {
+    width: 150px;
+    height: 150px;
+}
+
+.continer p{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
